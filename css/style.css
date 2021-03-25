@@ -2036,7 +2036,7 @@ ul, ol {
 		top: 0;
 		width: 300px;
 		z-index: 999;
-		background: #ffffff;
+		background: #000000;
 		text-align: center;
 		overflow-y: auto;
 		height: 100%;
@@ -2051,7 +2051,7 @@ ul, ol {
 	.offcanvas-menu-wrapper .canvas-close {
 		height: 30px;
 		width: 30px;
-		border: 1px solid #ffffff;
+		border: 1px solid #e0e028;
 		border-radius: 50%;
 		text-align: center;
 		line-height: 30px;
@@ -2062,7 +2062,7 @@ ul, ol {
 		padding-right: 1px;
 	}
 	.offcanvas-menu-wrapper .search-icon {
-		color: #ffffff;
+		color: #e0e028;
 		text-align: center;
 		cursor: pointer;
 		margin-bottom: 10px;
