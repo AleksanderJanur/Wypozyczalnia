@@ -78,6 +78,11 @@ ul, ol {
 	background-size: cover;
 	background-position: center center;
 }
+@media only screen and (max-width: 767px) {
+	.set-bg{
+		background-position: center left;
+	}
+}
 .spad {
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -99,6 +104,9 @@ ul, ol {
 	letter-spacing: 2px;
 	font-weight: 700;
 	position: relative;
+}
+.primary-btn:hover{
+	color:#e0e028;
 }
 .primary-btn:after {
 	position: absolute;
@@ -637,6 +645,9 @@ ul, ol {
 }
 .about-text .about-btn {
 	color: #ffffff;
+}
+.about-text .about-btn:hover {
+	color: #e0e028;
 }
 .about-pic img {
 	min-width: 100%;

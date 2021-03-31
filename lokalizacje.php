@@ -46,51 +46,62 @@ $myparam = str_replace("-", " ", $myparam);
 </div>
 <div class="offcanvas-menu-wrapper">
     <div class="canvas-close">
-        <i style="color:#e0e028" class="icon_close"></i>
+        <i class="icon_close"></i>
     </div>
-    <div class="search-icon  search-switch">
-        <i class="icon_search"></i>
-    </div>
+    <!--        <div class="search-icon  search-switch">
+                <i class="icon_search"></i>
+            </div>-->
     <div class="header-configure-area">
         <div class="language-option">
-            <img src="/img/flag.jpg" alt="">
-            <span>EN <i class="fa fa-angle-down"></i></span>
+            <img src="myImg/poland.png" alt="">
+            <span>PL <i class="fa fa-angle-down"></i></span>
             <div class="flag-dropdown">
                 <ul>
-                    <li><a href="#">Zi</a></li>
-                    <li><a href="#">Fr</a></li>
+                    <li style="padding-bottom: 10px;"><img src="myImg/poland.png" alt=""><a href="#">PL</a></li>
+                    <li><img src="img/flag.jpg" alt=""><a href="#">EN</a></li>
                 </ul>
             </div>
         </div>
-        <a href="#" class="bk-btn">Booking Now</a>
+        <a href="#" class="bk-btn">Zarezerwuj teraz</a>
     </div>
     <nav class="mainmenu mobile-menu">
         <ul>
-            <li class="active"><a href="./index.html">Start</a></li>
+            <li><a href="./">Start</a></li>
+            <li><a href="./#nasze_samochody">Nasze samochody</a></li>
             <li><a href="./o-nas.html">O nas</a></li>
-            <li><a href="./nasze-samochody.html">Nasze samochody</a></li>
-            <li><a href="./lokalizacje.html">Lokalizacje</a>
+            <li class="active"><a href="lokalizacje.php">Lokalizacje</a>
                 <ul class="dropdown">
-                    <li><a href="./lokalizacje.html">Częstochowa</a></li>
+                    <li><a href="./lokalizacje">Częstochowa</a></li>
                     <li><a href="#">Gliwice</a></li>
-                    <li><a href="#">Jelenia Góra</a></li>
                     <li><a href="#">Katowice</a></li>
+                    <li><a href="#">Kraków</a></li>
+                    <li><a href="#">Sosnowiec</a></li>
+                    <li><a href="#">Warszawa</a></li>
+                    <li><a href="#">Sopot</a></li>
+                    <li><a href="#">Leszno</a></li>
+                    <li><a href="#">Legnica</a></li>
+                    <li><a href="#">Wrocław</a></li>
+                    <li><a href="#">Poznań</a></li>
+                    <li><a href="#">Opole</a></li>
+                    <li><a href="#">Lublin</a></li>
+                    <li><a href="#">Łódź</a></li>
                 </ul>
             </li>
-            <li><a href="./oferta.html">News</a></li>
-            <li><a href="./kontakt.html">Contact</a></li>
+            <li><a href="./oferta.html">Oferta</a></li>
+            <li><a href="./kontakt.html">Kontakt</a></li>
         </ul>
     </nav>
     <div id="mobile-menu-wrap"></div>
     <div class="top-social">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-<!--        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-tripadvisor"></i></a>-->
-        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
+        <!--            <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-tripadvisor"></i></a>-->
+        <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
     </div>
-    <ul class="top-widget">
-        <li><i class="fa fa-phone"></i> (12) 345 67890</li>
-        <li><i class="fa fa-envelope"></i> info.colorlib@gmail.com</li>
+    <ul class="top-widget emailAndPhone">
+        <li><a href="mailto:email@test.com"><i class="fa fa-envelope"></i> email@test.pl</a></li>
+        <li><a href="tel:+48 786 862 109"><i class="fa fa-phone"></i> +48 786 862 109 </a></li>
+        <li><a href="tel:+48 537 417 462"><i class="fa fa-phone"></i> +48 532 718 466 </a></li>
     </ul>
 </div>
 <!-- Offcanvas Menu Section End -->
@@ -101,9 +112,10 @@ $myparam = str_replace("-", " ", $myparam);
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <ul class="tn-left">
-                        <li><i class="fa fa-phone"></i> (+48) 111 222 333 </li>
-                        <li><i class="fa fa-envelope"></i> email@test.pl</li>
+                    <ul class="tn-left emailAndPhone">
+                        <li><a href="mailto:email@test.com"><i class="fa fa-envelope"></i> email@test.pl</a></li>
+                        <li><a href="tel:+48 786 862 109"><i class="fa fa-phone"></i> +48 786 862 109 </a></li>
+                        <li><a href="tel:+48 537 417 462"><i class="fa fa-phone"></i> +48 532 718 466 </a></li>
                     </ul>
                 </div>
                 <div class="col-lg-6">
@@ -114,14 +126,14 @@ $myparam = str_replace("-", " ", $myparam);
                                                             <a href="#"><i class="fa fa-tripadvisor"></i></a>-->
                             <a href="#"><i class="fab fa-instagram"></i></a>
                         </div>
-                        <a style="color:#000000;" href="#" class="bk-btn">Zarezerwuj teraz</a>
+                        <a  href="#" class="bk-btn">Zarezerwuj teraz</a>
                         <div class="language-option">
-                            <img src="/myImg/poland.png" alt="">
+                            <img src="myImg/poland.png" alt="">
                             <span>PL <i class="fa fa-angle-down"></i></span>
                             <div class="flag-dropdown">
                                 <ul>
-                                    <li><img src="/myImg/poland.png" alt=""><a style="color:#000000;" href="#">PL</a></li>
-                                    <li><img src="/img/flag.jpg" alt=""><a style="color:#000000;" href="#">EN</a></li>
+                                    <li style="padding-bottom: 10px;"><img src="myImg/poland.png" alt=""><a href="#">PL</a></li>
+                                    <li><img src="img/flag.jpg" alt=""><a href="#">EN</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -135,37 +147,55 @@ $myparam = str_replace("-", " ", $myparam);
             <div class="row">
                 <div class="col-lg-2">
                     <div class="logo">
-                        <a href="./index.html">
-                            <img src="/myImg/logoTest.png" alt="">
+                        <a href="./">
+                            <img src="myImg/logoTest.png" alt="">
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-10">
+                <li class="col-lg-10">
                     <div class="nav-menu">
                         <nav class="mainmenu">
                             <ul>
-                                <li><a href="./index.html">Start</a></li>
+                                <li><a href="./">Start</a></li>
+                                <li><a style="cursor: pointer;" onclick="goToByScroll()" >Nasze Samochody</a></li>
                                 <li><a href="./o-nas.html">O nas</a></li>
-                                <li><a href="./nasze-samochody.html">Nasze Samochody</a></li>
-                                <li class="active"><a href="./lokalizacje.html">Lokalizacje</a>
+                                <li class="active"><a href="lokalizacje/Wynajem-samochodów-sportowych-Kraków">Lokalizacje</a>
                                     <ul class="dropdown">
-                                        <li><a href="./lokalizacje.html">Częstochowa</a></li>
-                                        <li><a href="#">Gliwice</a></li>
-                                        <li><a href="#">Jelenia Góra</a></li>
-                                        <li><a href="#">Katowice</a></li>
+                                        <li>
+                                            <div class="row" style="width: 250px;background-color: #e0e028;">
+                                                <ul class="list-unstyled col-md-6">
+                                                    <li><a href="./lokalizacje">Częstochowa</a></li>
+                                                    <li><a href="#">Gliwice</a></li>
+                                                    <li><a href="#">Katowice</a></li>
+                                                    <li><a href="#">Kraków</a></li>
+                                                    <li><a href="#">Sosnowiec</a></li>
+                                                    <li><a href="#">Warszawa</a></li>
+                                                    <li><a href="#">Sopot</a></li>
+                                                </ul>
+                                                <ul style="padding-left:25px;" class="list-unstyled col-md-6">
+                                                    <li><a href="#">Leszno</a></li>
+                                                    <li><a href="#">Legnica</a></li>
+                                                    <li><a href="#">Wrocław</a></li>
+                                                    <li><a href="#">Poznań</a></li>
+                                                    <li><a href="#">Opole</a></li>
+                                                    <li><a href="#">Lublin</a></li>
+                                                    <li><a href="#">Łódź</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li><a href="./oferta.html">Oferta</a></li>
                                 <li><a href="./kontakt.html">Kontakt</a></li>
                             </ul>
                         </nav>
-                        <div class="nav-right search-switch">
-                            <i class="icon_search"></i>
-                        </div>
+                        <!--                            <div class="nav-right search-switch">
+                                                        <i class="icon_search"></i>
+                                                    </div>-->
                     </div>
-                </div>
             </div>
         </div>
+    </div>
     </div>
 </header>
     <!-- Header End -->
@@ -249,7 +279,7 @@ $myparam = str_replace("-", " ", $myparam);
                     <div class="col-lg-6">
                         <div class="about-pic">
                             <div class="row">
-                                <img src="/myImg/auto1.png" alt="">
+                                <img style="border: 1px solid #e0e028" src="/myImg/photo6.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -259,36 +289,43 @@ $myparam = str_replace("-", " ", $myparam);
     </div>
 </section>
 
-<section class="services-section spad">
+<section class="services-section spad"style="padding-top: 125px!important;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title">
-                    <span>RACECAR24</span>
+                    <span>FastCars24</span>
                     <h2>Skontaktuj się z nami</h2>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="service-item">
                     <i class="far fa-envelope fa-3x"></i>
                     <h4>Email</h4>
                     <p>email@test.pl</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="service-item">
                     <i class="fas fa-phone fa-3x"></i>
                     <h4>Telefon</h4>
-                    <p>(+48) 111 222 333</p>
+                    <p>+48 786 862 109</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
+                <div class="service-item">
+                    <i class="fas fa-phone fa-3x"></i>
+                    <h4>Telefon</h4>
+                    <p>+48 532 718 466</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
                 <div class="service-item">
                     <i class="fas fa-map-marker-alt fa-3x"></i>
                     <h4>Adres</h4>
-                    <p>Adres 111, Miasto</p>
+                    <p>Wspólna 3A, 41-200 Sosnowiec</p>
                 </div>
             </div>
         </div>
@@ -306,12 +343,12 @@ $myparam = str_replace("-", " ", $myparam);
                     <div class="ft-about">
                         <div class="logo">
                             <a href="#">
-                                <img src="/myImg/footerLogoTest.png" alt="">
+                                <img src="myImg/footerLogoTest.png" alt="">
                             </a>
                         </div>
-                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a style="color:#e0e028;text-decoration: underline;" href="https://colorlib.com" target="_blank">RaceCars</a>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                        <p>
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a style="color:#e0e028;text-decoration: underline;" href="#" target="_blank">FastCars</a>
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-3 offset-lg-1">
@@ -319,9 +356,9 @@ $myparam = str_replace("-", " ", $myparam);
                         <h6>Nawigacja</h6>
                         <ul>
                             <li><a href="index.html">Start</a></li>
+                            <li><a href="./#nasze_samochody">Nasze Samochody</a></li>
                             <li><a href="./o-nas.html">O nas</a></li>
-                            <li><a href="./nasze-samochody.html">Nasze Samochody</a></li>
-                            <li ><a href="./lokalizacje.html">Lokalizacje</a>
+                            <li ><a href="./lokalizacje.php">Lokalizacje</a>
                             <li><a href="./oferta.html">Oferta</a></li>
                             <li><a href="./kontakt.html">Kontakt</a></li>
 
@@ -331,8 +368,8 @@ $myparam = str_replace("-", " ", $myparam);
                 <div class="col-lg-3 offset-lg-1">
                     <div class="ft-about">
                         <div class="fa-social">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
