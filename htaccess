@@ -1,0 +1,6 @@
+RewriteEngine ON
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+RewriteCond %{REQUEST_URI} !-f
+RewriteCond %{REQUEST_URI} !-d
+RewriteRule ^post(.*)/?$ post.php?post=$1 [L]
