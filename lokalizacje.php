@@ -68,27 +68,27 @@ $myparam = str_replace("-", " ", $myparam);
         <ul>
             <li><a href="./">Start</a></li>
             <li><a href="./#nasze_samochody">Nasze samochody</a></li>
-            <li><a href="./o-nas.html">O nas</a></li>
-            <li class="active"><a href="lokalizacje.php">Lokalizacje</a>
+            <li><a href="./o-nas">O nas</a></li>
+            <li class="active"><a href="lokalizacje/Wynajem-samochodów-sportowych-Kraków">Lokalizacje</a>
                 <ul class="dropdown">
-                    <li><a href="./lokalizacje">Częstochowa</a></li>
-                    <li><a href="#">Gliwice</a></li>
-                    <li><a href="#">Katowice</a></li>
-                    <li><a href="#">Kraków</a></li>
-                    <li><a href="#">Sosnowiec</a></li>
-                    <li><a href="#">Warszawa</a></li>
-                    <li><a href="#">Sopot</a></li>
-                    <li><a href="#">Leszno</a></li>
-                    <li><a href="#">Legnica</a></li>
-                    <li><a href="#">Wrocław</a></li>
-                    <li><a href="#">Poznań</a></li>
-                    <li><a href="#">Opole</a></li>
-                    <li><a href="#">Lublin</a></li>
-                    <li><a href="#">Łódź</a></li>
+                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Częstochowa">Częstochowa</a></li>
+                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Gliwice">Gliwice</a></li>
+                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Katowice">Katowice</a></li>
+                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Kraków">Kraków</a></li>
+                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Sosnowiec">Sosnowiec</a></li>
+                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Warszawa">Warszawa</a></li>
+                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Sopot">Sopot</a></li>
+                    <li><a href="lokalizacje/Wynajem-samochodów-sportowychLeszno">Leszno</a></li>
+                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Legnica">Legnica</a></li>
+                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Wrocław">Wrocław</a></li>
+                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Poznań">Poznań</a></li>
+                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Opole">Opole</a></li>
+                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Lublin">Lublin</a></li>
+                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Łódź">Łódź</a></li>
                 </ul>
             </li>
-            <li><a href="./oferta.html">Oferta</a></li>
-            <li><a href="./kontakt.html">Kontakt</a></li>
+            <li><a href="./oferta">Oferta</a></li>
+            <li><a href="./kontakt">Kontakt</a></li>
         </ul>
     </nav>
     <div id="mobile-menu-wrap"></div>
@@ -158,35 +158,35 @@ $myparam = str_replace("-", " ", $myparam);
                             <ul>
                                 <li><a href="./">Start</a></li>
                                 <li><a style="cursor: pointer;" onclick="goToByScroll()" >Nasze Samochody</a></li>
-                                <li><a href="./o-nas.html">O nas</a></li>
+                                <li><a href="./o-nas">O nas</a></li>
                                 <li class="active"><a href="lokalizacje/Wynajem-samochodów-sportowych-Kraków">Lokalizacje</a>
                                     <ul class="dropdown">
                                         <li>
                                             <div class="row" style="width: 250px;background-color: #e0e028;">
                                                 <ul class="list-unstyled col-md-6">
-                                                    <li><a href="./lokalizacje">Częstochowa</a></li>
-                                                    <li><a href="#">Gliwice</a></li>
-                                                    <li><a href="#">Katowice</a></li>
-                                                    <li><a href="#">Kraków</a></li>
-                                                    <li><a href="#">Sosnowiec</a></li>
-                                                    <li><a href="#">Warszawa</a></li>
+                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Częstochowa">Częstochowa</a></li>
+                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Gliwice">Gliwice</a></li>
+                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Katowice">Katowice</a></li>
+                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Kraków">Kraków</a></li>
+                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Sosnowiec">Sosnowiec</a></li>
+                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Warszawa">Warszawa</a></li>
                                                     <li><a href="#">Sopot</a></li>
                                                 </ul>
                                                 <ul style="padding-left:25px;" class="list-unstyled col-md-6">
-                                                    <li><a href="#">Leszno</a></li>
-                                                    <li><a href="#">Legnica</a></li>
-                                                    <li><a href="#">Wrocław</a></li>
-                                                    <li><a href="#">Poznań</a></li>
-                                                    <li><a href="#">Opole</a></li>
-                                                    <li><a href="#">Lublin</a></li>
-                                                    <li><a href="#">Łódź</a></li>
+                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowychLeszno">Leszno</a></li>
+                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Legnica">Legnica</a></li>
+                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Wrocław">Wrocław</a></li>
+                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Poznań">Poznań</a></li>
+                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Opole">Opole</a></li>
+                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Lublin">Lublin</a></li>
+                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Łódź">Łódź</a></li>
                                                 </ul>
                                             </div>
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="./oferta.html">Oferta</a></li>
-                                <li><a href="./kontakt.html">Kontakt</a></li>
+                                <li><a href="./oferta">Oferta</a></li>
+                                <li><a href="./kontakt">Kontakt</a></li>
                             </ul>
                         </nav>
                         <!--                            <div class="nav-right search-switch">
@@ -209,7 +209,7 @@ $myparam = str_replace("-", " ", $myparam);
                 <div class="breadcrumb-text">
                     <h2>Lokalizacje</h2>
                     <div class="bt-option">
-                        <a href="./index.html">Start</a>
+                        <a href="./index">Start</a>
                         <span><?php echo $myparam;?>></span>
                     </div>
                 </div>
@@ -355,12 +355,12 @@ $myparam = str_replace("-", " ", $myparam);
                     <div class="ft-contact">
                         <h6>Nawigacja</h6>
                         <ul>
-                            <li><a href="index.html">Start</a></li>
+                            <li><a href="index">Start</a></li>
                             <li><a href="./#nasze_samochody">Nasze Samochody</a></li>
-                            <li><a href="./o-nas.html">O nas</a></li>
+                            <li><a href="./o-nas">O nas</a></li>
                             <li ><a href="./lokalizacje.php">Lokalizacje</a>
-                            <li><a href="./oferta.html">Oferta</a></li>
-                            <li><a href="./kontakt.html">Kontakt</a></li>
+                            <li><a href="./oferta">Oferta</a></li>
+                            <li><a href="./kontakt">Kontakt</a></li>
 
                         </ul>
                     </div>
