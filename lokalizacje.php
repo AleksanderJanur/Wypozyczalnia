@@ -1,5 +1,4 @@
 <?php
-    print_r($_GET);
 $myparam = str_replace(".php/", "", $_GET['lok']);
 $myparam = str_replace("samochodów", "samochodów <br>", $myparam);
 $myparam = str_replace("-", " ", $myparam);
@@ -31,6 +30,7 @@ $myparam = str_replace("-", " ", $myparam);
     <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="icon" href="myImg/LogoTop.png">
 </head>
 
 <body>
@@ -53,12 +53,12 @@ $myparam = str_replace("-", " ", $myparam);
             </div>-->
     <div class="header-configure-area">
         <div class="language-option">
-            <img src="myImg/poland.png" alt="">
+            <img src="/myImg/poland.png" alt="">
             <span>PL <i class="fa fa-angle-down"></i></span>
             <div class="flag-dropdown">
                 <ul>
-                    <li style="padding-bottom: 10px;"><img src="myImg/poland.png" alt=""><a href="#">PL</a></li>
-                    <li><img src="img/flag.jpg" alt=""><a href="#">EN</a></li>
+                    <li style="padding-bottom: 10px;"><img src="/myImg/poland.png" alt=""><a href="#">PL</a></li>
+                    <li><img src="/img/flag.jpg" alt=""><a href="#">EN</a></li>
                 </ul>
             </div>
         </div>
@@ -66,29 +66,29 @@ $myparam = str_replace("-", " ", $myparam);
     </div>
     <nav class="mainmenu mobile-menu">
         <ul>
-            <li><a href="./">Start</a></li>
-            <li><a href="./#nasze_samochody">Nasze samochody</a></li>
-            <li><a href="./o-nas">O nas</a></li>
-            <li class="active"><a href="lokalizacje/Wynajem-samochodów-sportowych-Kraków">Lokalizacje</a>
+            <li><a href="/">Start</a></li>
+            <li><a href="/#nasze_samochody">Nasze samochody</a></li>
+            <li><a href="/o-nas">O nas</a></li>
+            <li class="active"><a href="/lokalizacje/Wynajem-samochodów-sportowych-Kraków">Lokalizacje</a>
                 <ul class="dropdown">
-                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Częstochowa">Częstochowa</a></li>
-                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Gliwice">Gliwice</a></li>
-                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Katowice">Katowice</a></li>
-                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Kraków">Kraków</a></li>
-                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Sosnowiec">Sosnowiec</a></li>
-                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Warszawa">Warszawa</a></li>
-                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Sopot">Sopot</a></li>
-                    <li><a href="lokalizacje/Wynajem-samochodów-sportowychLeszno">Leszno</a></li>
-                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Legnica">Legnica</a></li>
-                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Wrocław">Wrocław</a></li>
-                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Poznań">Poznań</a></li>
-                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Opole">Opole</a></li>
-                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Lublin">Lublin</a></li>
-                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Łódź">Łódź</a></li>
+                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Częstochowa">Częstochowa</a></li>
+                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Gliwice">Gliwice</a></li>
+                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Katowice">Katowice</a></li>
+                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Kraków">Kraków</a></li>
+                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Sosnowiec">Sosnowiec</a></li>
+                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Warszawa">Warszawa</a></li>
+                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Sopot">Sopot</a></li>
+                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowychLeszno">Leszno</a></li>
+                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Legnica">Legnica</a></li>
+                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Wrocław">Wrocław</a></li>
+                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Poznań">Poznań</a></li>
+                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Opole">Opole</a></li>
+                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Lublin">Lublin</a></li>
+                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Łódź">Łódź</a></li>
                 </ul>
             </li>
-            <li><a href="./oferta">Oferta</a></li>
-            <li><a href="./kontakt">Kontakt</a></li>
+            <li><a href="/oferta">Oferta</a></li>
+            <li><a href="/kontakt">Kontakt</a></li>
         </ul>
     </nav>
     <div id="mobile-menu-wrap"></div>
@@ -128,12 +128,12 @@ $myparam = str_replace("-", " ", $myparam);
                         </div>
                         <a  href="#" class="bk-btn">Zarezerwuj teraz</a>
                         <div class="language-option">
-                            <img src="myImg/poland.png" alt="">
+                            <img src="/myImg/poland.png" alt="">
                             <span>PL <i class="fa fa-angle-down"></i></span>
                             <div class="flag-dropdown">
                                 <ul>
-                                    <li style="padding-bottom: 10px;"><img src="myImg/poland.png" alt=""><a href="#">PL</a></li>
-                                    <li><img src="img/flag.jpg" alt=""><a href="#">EN</a></li>
+                                    <li style="padding-bottom: 10px;"><img src="/myImg/poland.png" alt=""><a href="#">PL</a></li>
+                                    <li><img src="/img/flag.jpg" alt=""><a href="#">EN</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -147,8 +147,8 @@ $myparam = str_replace("-", " ", $myparam);
             <div class="row">
                 <div class="col-lg-2">
                     <div class="logo">
-                        <a href="./">
-                            <img src="myImg/logoTest.png" alt="">
+                        <a href="/">
+                            <img src="/myImg/logoTest.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -156,37 +156,37 @@ $myparam = str_replace("-", " ", $myparam);
                     <div class="nav-menu">
                         <nav class="mainmenu">
                             <ul>
-                                <li><a href="./">Start</a></li>
-                                <li><a style="cursor: pointer;" onclick="goToByScroll()" >Nasze Samochody</a></li>
-                                <li><a href="./o-nas">O nas</a></li>
-                                <li class="active"><a href="lokalizacje/Wynajem-samochodów-sportowych-Kraków">Lokalizacje</a>
+                                <li><a href="/">Start</a></li>
+                                <li><a href="/#nasze_samochody" >Nasze Samochody</a></li>
+                                <li><a href="/o-nas">O nas</a></li>
+                                <li class="active"><a href="/lokalizacje/Wynajem-samochodów-sportowych-Kraków">Lokalizacje</a>
                                     <ul class="dropdown">
                                         <li>
                                             <div class="row" style="width: 250px;background-color: #e0e028;">
                                                 <ul class="list-unstyled col-md-6">
-                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Częstochowa">Częstochowa</a></li>
-                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Gliwice">Gliwice</a></li>
-                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Katowice">Katowice</a></li>
-                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Kraków">Kraków</a></li>
-                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Sosnowiec">Sosnowiec</a></li>
-                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Warszawa">Warszawa</a></li>
-                                                    <li><a href="#">Sopot</a></li>
+                                                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Częstochowa">Częstochowa</a></li>
+                                                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Gliwice">Gliwice</a></li>
+                                                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Katowice">Katowice</a></li>
+                                                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Kraków">Kraków</a></li>
+                                                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Sosnowiec">Sosnowiec</a></li>
+                                                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Warszawa">Warszawa</a></li>
+                                                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Sopot">Sopot</a></li>
                                                 </ul>
                                                 <ul style="padding-left:25px;" class="list-unstyled col-md-6">
-                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowychLeszno">Leszno</a></li>
-                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Legnica">Legnica</a></li>
-                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Wrocław">Wrocław</a></li>
-                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Poznań">Poznań</a></li>
-                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Opole">Opole</a></li>
-                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Lublin">Lublin</a></li>
-                                                    <li><a href="lokalizacje/Wynajem-samochodów-sportowych-Łódź">Łódź</a></li>
+                                                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowychLeszno">Leszno</a></li>
+                                                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Legnica">Legnica</a></li>
+                                                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Wrocław">Wrocław</a></li>
+                                                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Poznań">Poznań</a></li>
+                                                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Opole">Opole</a></li>
+                                                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Lublin">Lublin</a></li>
+                                                    <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Łódź">Łódź</a></li>
                                                 </ul>
                                             </div>
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="./oferta">Oferta</a></li>
-                                <li><a href="./kontakt">Kontakt</a></li>
+                                <li><a href="/oferta">Oferta</a></li>
+                                <li><a href="/kontakt">Kontakt</a></li>
                             </ul>
                         </nav>
                         <!--                            <div class="nav-right search-switch">
@@ -209,8 +209,7 @@ $myparam = str_replace("-", " ", $myparam);
                 <div class="breadcrumb-text">
                     <h2>Lokalizacje</h2>
                     <div class="bt-option">
-                        <a href="./index">Start</a>
-                        <span><?php echo $myparam;?>></span>
+                        <span><?php echo $myparam;?></span>
                     </div>
                 </div>
             </div>
@@ -258,28 +257,23 @@ $myparam = str_replace("-", " ", $myparam);
 
                                     </h2>
                                 </div>
-                                <span>RaceCar24</span>
+                                <span>RaceCars24</span>
 <!--                                <h3 style="color:#ffffff">Wypożyczalnia samochodów sportowych i luksusowych</h3>-->
                             </div>
 <!--                            <p style="color:#e0e028;">Oferujemy Państwu wynajem samochodów sportowych oraz luksusowych na terenie Wrocławia oraz możliwość dostarczenia samochodu pod dowolny adres na terenie Polski oraz Europy.</p>-->
-                            <p class="s-para">Dla każdego z naszych klientów, w oparciu o jego potrzeby i preferencje, jesteśmy w stanie przygotować atrakcyjną, indywidualną ofertę wynajmu. Wynajem samochodów luksusowych wiąże się z dodatkowymi, równie luksusowymi opcjami, które możemy zaproponować naszym klientom.
-
-                                Są to m.in. podstawienie samochodu pod wskazany przez klienta adres, samochód z kierowcą itp. Przygotowana przez nas oferta jest wyjątkowo atrakcyjna dzięki naszemu wydajnemu modelowi działania. Minimalizując koszty jesteśmy w stanie zaproponować ceny niespotykane u konkurencji. Możemy powiedzieć, że oferujemy najtańszy wynajem samochodów sportowych i luksusowych na rynku.
-
-                                W naszej ofercie znajdują się pojazdy najlepszych na Świecie marek.
-
-                                Do każdego klienta podchodzimy indywidualnie, dlatego nasza oferta jest jedną z najlepszych na rynku. Konkurencyjne ceny oraz najlepsze samochody – to połączenie sprawia, że nasza oferta skierowana jest do niemal każdego fana motoryzacji.
-
-                                Oferujemy zarówno najem długoterminowy jak i wynajem samochodu na doby.  Spraw prezent sobie lub Twoim bliskim i wybierz jeden z samochodów oferowanych przez RaceCars24.
-
-                                Nieważne czy szukasz krzykliwego, sportowego hot-hatch’a, czy szybkiej, luksusowej limuzyny – w naszej ofercie na pewno znajdziesz idealny samochód sportowy na wynajem.</p>
-                            <a href="#" class="primary-btn about-btn">Dowiedz się więcej</a>
+                            <p class="s-para">Siedziba wypożyczalni FastCars24 znajduje się w Sosnowcu. To jednak nie oznacza, że działamy jedynie na terenie tego miasta - dostosowujemy się do potrzeb Klientów, dlatego zasięg naszych usług obejmuje teren całej Polski!
+                                <br><br>
+                                W naszej bogatej ofercie można znaleźć, m.in. opcję wypożyczenia samochodu z transportem pod wskazany adres. To z pewnością duże ułatwienie dla współczesnego kierowcy. Gwarantujemy szybkość i sprawność w wypełnieniu wszelkich formalności.
+                                <br><br
+                                Zdecydowałeś/aś się na samochód z FastCars24? Teraz bez obaw możesz bezpiecznie wyruszyć w drogę!
+                            </p>
+<!--                            <a href="#" class="primary-btn about-btn">Dowiedz się więcej</a>-->
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="about-pic">
                             <div class="row">
-                                <img style="border: 1px solid #e0e028" src="/myImg/photo6.jpg" alt="">
+                                <img style="border: 1px solid #e0e028; margin-top:30px;" src="/myImg/photo6.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -343,7 +337,7 @@ $myparam = str_replace("-", " ", $myparam);
                     <div class="ft-about">
                         <div class="logo">
                             <a href="#">
-                                <img src="myImg/footerLogoTest.png" alt="">
+                                <img src="/myImg/footerLogoTest.png" alt="">
                             </a>
                         </div>
                         <p>
