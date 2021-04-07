@@ -273,7 +273,7 @@ $myparam = str_replace("-", " ", $myparam);
                     <div class="col-lg-6">
                         <div class="about-pic">
                             <div class="row">
-                                <img style="border: 1px solid #e0e028; margin-top:30px;" src="/myImg/photo6.jpg" alt="">
+                                <img style="border: 1px solid #e0e028; margin-top:30px;" src="/myImg/mazdasrodek.jpg" alt="">
                             </div>
                         </div>
                     </div>
