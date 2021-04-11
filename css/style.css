@@ -78,11 +78,11 @@ ul, ol {
 	background-size: cover;
 	background-position: center center;
 }
-@media only screen and (max-width: 767px) {
+/*@media only screen and (max-width: 767px) {
 	.set-bg{
 		background-position: center left;
 	}
-}
+}*/
 .spad {
 	padding-top: 100px;
 	padding-bottom: 100px;
