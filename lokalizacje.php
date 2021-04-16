@@ -99,7 +99,8 @@ $myparam = str_replace("-", " ", $myparam);
         <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
     </div>
     <ul class="top-widget emailAndPhone">
-        <li><a href="mailto:email@test.com"><i class="fa fa-envelope"></i> email@test.pl</a></li>
+        <li><a href="mailto:email@test.com"><i class="fa fa-envelope"></i> biuro@fastcars24.com
+</a></li>
         <li><a href="tel:+48 786 862 109"><i class="fa fa-phone"></i> +48 786 862 109 </a></li>
         <li><a href="tel:+48 537 417 462"><i class="fa fa-phone"></i> +48 532 718 466 </a></li>
     </ul>
@@ -113,7 +114,8 @@ $myparam = str_replace("-", " ", $myparam);
             <div class="row">
                 <div class="col-lg-6">
                     <ul class="tn-left emailAndPhone">
-                        <li><a href="mailto:email@test.com"><i class="fa fa-envelope"></i> email@test.pl</a></li>
+                        <li><a href="mailto:email@test.com"><i class="fa fa-envelope"></i> biuro@fastcars24.com
+</a></li>
                         <li><a href="tel:+48 786 862 109"><i class="fa fa-phone"></i> +48 786 862 109 </a></li>
                         <li><a href="tel:+48 537 417 462"><i class="fa fa-phone"></i> +48 532 718 466 </a></li>
                     </ul>
@@ -162,7 +164,8 @@ $myparam = str_replace("-", " ", $myparam);
                                 <li class="active"><a href="/lokalizacje/Wynajem-samochodów-sportowych-Kraków">Lokalizacje</a>
                                     <ul class="dropdown">
                                         <li>
-                                            <div class="row" style="width: 250px;background-color: #e0e028;">
+                                            <div class="row" style="width: 250px;background-color: #18F105
+;">
                                                 <ul class="list-unstyled col-md-6">
                                                     <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Częstochowa">Częstochowa</a></li>
                                                     <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Gliwice">Gliwice</a></li>
@@ -257,10 +260,11 @@ $myparam = str_replace("-", " ", $myparam);
 
                                     </h2>
                                 </div>
-                                <span>RaceCars24</span>
+                                <span>FastCars24</span>
 <!--                                <h3 style="color:#ffffff">Wypożyczalnia samochodów sportowych i luksusowych</h3>-->
                             </div>
-<!--                            <p style="color:#e0e028;">Oferujemy Państwu wynajem samochodów sportowych oraz luksusowych na terenie Wrocławia oraz możliwość dostarczenia samochodu pod dowolny adres na terenie Polski oraz Europy.</p>-->
+<!--                            <p style="color:#18F105
+;">Oferujemy Państwu wynajem samochodów sportowych oraz luksusowych na terenie Wrocławia oraz możliwość dostarczenia samochodu pod dowolny adres na terenie Polski oraz Europy.</p>-->
                             <p class="s-para">Siedziba wypożyczalni FastCars24 znajduje się w Sosnowcu. To jednak nie oznacza, że działamy jedynie na terenie tego miasta - dostosowujemy się do potrzeb Klientów, dlatego zasięg naszych usług obejmuje teren całej Polski!
                                 <br><br>
                                 W naszej bogatej ofercie można znaleźć, m.in. opcję wypożyczenia samochodu z transportem pod wskazany adres. To z pewnością duże ułatwienie dla współczesnego kierowcy. Gwarantujemy szybkość i sprawność w wypełnieniu wszelkich formalności.
@@ -273,7 +277,8 @@ $myparam = str_replace("-", " ", $myparam);
                     <div class="col-lg-6">
                         <div class="about-pic">
                             <div class="row">
-                                <img style="border: 1px solid #e0e028; margin-top:30px;" src="/myImg/mazdasrodek.jpg" alt="">
+                                <img style="border: 1px solid #18F105
+; margin-top:30px;" src="/myImg/mazdasrodek.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -298,7 +303,8 @@ $myparam = str_replace("-", " ", $myparam);
                 <div class="service-item">
                     <i class="far fa-envelope fa-3x"></i>
                     <h4>Email</h4>
-                    <p>email@test.pl</p>
+                    <p>biuro@fastcars24.com
+</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
@@ -342,7 +348,8 @@ $myparam = str_replace("-", " ", $myparam);
                             </a>
                         </div>
                         <p>
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a style="color:#e0e028;text-decoration: underline;" href="#" target="_blank">FastCars</a>
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a style="color:#18F105
+;text-decoration: underline;" href="#" target="_blank">FastCars</a>
                         </p>
                     </div>
                 </div>
@@ -377,7 +384,8 @@ $myparam = str_replace("-", " ", $myparam);
     <!-- Search model Begin -->
     <div class="search-model">
         <div class="h-100 d-flex align-items-center justify-content-center">
-            <div class="search-close-switch"><i style="color:#e0e028" class="icon_close"></i></div>
+            <div class="search-close-switch"><i style="color:#18F105
+" class="icon_close"></i></div>
             <form class="search-model-form">
                 <input type="text" id="search-input" placeholder="Search here.....">
             </form>
