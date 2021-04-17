@@ -30,7 +30,7 @@ $myparam = str_replace("-", " ", $myparam);
     <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="/css/style.css" type="text/css">
-    <link rel="icon" href="myImg/LogoTop.png">
+    <link rel="icon" type="image/png" href="myImg/logoTop.png">
 </head>
 
 <body>
@@ -150,7 +150,7 @@ $myparam = str_replace("-", " ", $myparam);
                 <div class="col-lg-2">
                     <div class="logo">
                         <a href="/">
-                            <img src="/myImg/logoTest.png" alt="">
+                            <img src="/myImg/logo2.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -344,7 +344,7 @@ $myparam = str_replace("-", " ", $myparam);
                     <div class="ft-about">
                         <div class="logo">
                             <a href="#">
-                                <img src="/myImg/footerLogoTest.png" alt="">
+                                <img src="/myImg/logo2Footer.png" alt="">
                             </a>
                         </div>
                         <p>
