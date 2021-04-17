@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="icon" type="image/png" href="myImg/logoTop.png">
+    <link rel="icon" href="myImg/LogoTop.png">
 
 
 </head>
@@ -96,7 +96,7 @@
         <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
     </div>
     <ul class="top-widget emailAndPhone">
-        <li><a href="mailto:biuro@fastcars24.com"><i class="fa fa-envelope"></i> biuro@fastcars24.com</a></li>
+        <li><a href="mailto:email@test.com"><i class="fa fa-envelope"></i> email@test.pl</a></li>
         <li><a href="tel:+48 786 862 109"><i class="fa fa-phone"></i> +48 786 862 109 </a></li>
         <li><a href="tel:+48 537 417 462"><i class="fa fa-phone"></i> +48 532 718 466 </a></li>
     </ul>
@@ -110,7 +110,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <ul class="tn-left emailAndPhone">
-                        <li><a href="mailto:biuro@fastcars24.com"><i class="fa fa-envelope"></i> biuro@fastcars24.com</a></li>
+                        <li><a href="mailto:email@test.com"><i class="fa fa-envelope"></i> email@test.pl</a></li>
                         <li><a href="tel:+48 786 862 109"><i class="fa fa-phone"></i> +48 786 862 109 </a></li>
                         <li><a href="tel:+48 537 417 462"><i class="fa fa-phone"></i> +48 532 718 466 </a></li>
                     </ul>
@@ -195,63 +195,63 @@
     </div>
     </div>
 </header>
-<!-- Header End -->
+    <!-- Header End -->
 
-<!-- Contact Section Begin -->
-<section class="contact-section spad">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="contact-text">
-                    <h2>Informacje kontaktowe</h2>
-                    <p>Zapraszamy do kontaktu telefonicznego lub drogą mailową. Zapewniamy indywidualne podejście do Państwa potrzeb!</p>
-                    <table>
-                        <tbody>
-                        <tr>
-                            <td class="c-o">Adres:</td>
-                            <td>Wspólna 3A, 41-200 Sosnowiec</td>
-                        </tr>
-                        <tr>
-                            <td class="c-o">Telefon:</td>
-                            <td>+48 786 862 109</td>
-                        </tr>
-                        <tr>
-                            <td class="c-o">Telefon:</td>
-                            <td>+48 532 718 466</td>
-                        </tr>
-                        <tr>
-                            <td class="c-o">Email:</td>
-                            <td>biuro@fastcars24.com</td>
-                        </tr>
-                        </tbody>
-                    </table>
+    <!-- Contact Section Begin -->
+    <section class="contact-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="contact-text">
+                        <h2>Informacje kontaktowe</h2>
+                        <p>Zapraszamy do kontaktu telefonicznego lub drogą mailową. Zapewniamy indywidualne podejście do Państwa potrzeb!</p>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="c-o">Adres:</td>
+                                    <td>Wspólna 3A, 41-200 Sosnowiec</td>
+                                </tr>
+                                <tr>
+                                    <td class="c-o">Telefon:</td>
+                                    <td>+48 786 862 109</td>
+                                </tr>
+                                <tr>
+                                    <td class="c-o">Telefon:</td>
+                                    <td>+48 532 718 466</td>
+                                </tr>
+                                <tr>
+                                    <td class="c-o">Email:</td>
+                                    <td>email@test.pl</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-7 offset-lg-1">
+                    <form  action="/send.php" method="post" class="contact-form">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <input type="text" name='imie' placeholder="Imię">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="email"  name='email' placeholder="Email">
+                            </div>
+                            <div class="col-lg-12">
+                                <textarea  name="content" type="text"  placeholder="Wiadomość"></textarea>
+                            </div>
+                                <button name="send" type="submit">Wyślij</button>
+                            </div>
+                    </form>
                 </div>
             </div>
-            <div class="col-lg-7 offset-lg-1">
-                <form id="jquery_form" method="post" class="contact-form">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <input type="text" placeholder="Imię">
-                        </div>
-                        <div class="col-lg-6">
-                            <input type="text" placeholder="Email">
-                        </div>
-                        <div class="col-lg-12">
-                            <textarea  name="message" type="text"  placeholder="Wiadomość"></textarea>
-                        <button name="send" type="submit">Wyślij</button>
-                    </div>
-                    </div>
-                </form>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2549.982252765533!2d19.12616431572499!3d50.27358997945127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716dababe514907%3A0xb3fe77928a35329e!2sWsp%C3%B3lna%203A%2C%2041-200%20Sosnowiec!5e0!3m2!1spl!2spl!4v1617026957969!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2549.982252765533!2d19.12616431572499!3d50.27358997945127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716dababe514907%3A0xb3fe77928a35329e!2sWsp%C3%B3lna%203A%2C%2041-200%20Sosnowiec!5e0!3m2!1spl!2spl!4v1617026957969!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-    </div>
-</section>
-<!-- Contact Section End -->
+    </section>
+    <!-- Contact Section End -->
 
-<!-- Footer Section Begin -->
+    <!-- Footer Section Begin -->
 <footer class="footer-section">
     <div class="container">
         <div class="footer-text">
@@ -294,28 +294,28 @@
         </div>
     </div>
 </footer>
-<!-- Footer Section End -->
+    <!-- Footer Section End -->
 
-<!-- Search model Begin -->
-<div class="search-model">
-    <div class="h-100 d-flex align-items-center justify-content-center">
-        <div class="search-close-switch"><i style="color:#18F105" class="icon_close"></i></div>
-        <form class="search-model-form">
-            <input type="text" id="search-input" placeholder="Search here.....">
-        </form>
+    <!-- Search model Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch"><i style="color:#18F105" class="icon_close"></i></div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
     </div>
-</div>
-<!-- Search model end -->
+    <!-- Search model end -->
 
-<!-- Js Plugins -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/jquery.nice-select.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/jquery.slicknav.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/main.js"></script>
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

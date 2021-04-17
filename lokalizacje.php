@@ -1,6 +1,7 @@
 <?php
 $myparam = str_replace(".php/", "", $_GET['lok']);
 $myparam = str_replace("samochodów", "samochodów <br>", $myparam);
+$myparam2 = str_replace("samochodów", "samochodów", $myparam);
 $myparam = str_replace("-", " ", $myparam);
 ?>
 <!DOCTYPE html>
@@ -8,11 +9,11 @@ $myparam = str_replace("-", " ", $myparam);
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="<?php echo $myparam;?>">
-    <meta name="keywords" content="Samochody, wyożyczalnia, fastcars24, kraków, warszawa, katowice, śląsk,<?php echo $myparam;?>">
+    <meta name="description" content="<?php echo $myparam2;?>">
+    <meta name="keywords" content="Samochody, wyożyczalnia, fastcars24, kraków, warszawa, katowice, śląsk,<?php echo $myparam2;?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>FastCars - <?php echo $myparam;?></title>
+    <title>FastCars - <?php echo $myparam2;?></title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
@@ -30,7 +31,7 @@ $myparam = str_replace("-", " ", $myparam);
     <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="/css/style.css" type="text/css">
-    <link rel="icon" type="image/png" href="myImg/logoTop.png">
+    <link rel="shortcut icon" type="image/x-icon" href="myImg/logoTop.png"/>
 </head>
 
 <body>
@@ -69,7 +70,7 @@ $myparam = str_replace("-", " ", $myparam);
             <li><a href="/">Start</a></li>
             <li><a href="/#nasze_samochody">Nasze samochody</a></li>
             <li><a href="/o-nas">O nas</a></li>
-            <li class="active"><a href="/lokalizacje/Wynajem-samochodów-sportowych-Kraków">Lokalizacje</a>
+            <li class="active"><a href="/lokalizacje/Wynajem-samochodów-sportowych-Sosnowiec">Lokalizacje</a>
                 <ul class="dropdown">
                     <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Częstochowa">Częstochowa</a></li>
                     <li><a href="/lokalizacje/Wynajem-samochodów-sportowych-Gliwice">Gliwice</a></li>
