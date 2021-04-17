@@ -100,7 +100,7 @@ $myparam = str_replace("-", " ", $myparam);
         <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
     </div>
     <ul class="top-widget emailAndPhone">
-        <li><a href="mailto:email@test.com"><i class="fa fa-envelope"></i> biuro@fastcars24.com
+        <li><a href="mailto:biuro@fastcars24.com"><i class="fa fa-envelope"></i> biuro@fastcars24.com
 </a></li>
         <li><a href="tel:+48 786 862 109"><i class="fa fa-phone"></i> +48 786 862 109 </a></li>
         <li><a href="tel:+48 537 417 462"><i class="fa fa-phone"></i> +48 532 718 466 </a></li>
@@ -115,7 +115,7 @@ $myparam = str_replace("-", " ", $myparam);
             <div class="row">
                 <div class="col-lg-6">
                     <ul class="tn-left emailAndPhone">
-                        <li><a href="mailto:email@test.com"><i class="fa fa-envelope"></i> biuro@fastcars24.com
+                        <li><a href="mailto:biuro@fastcars24.com"><i class="fa fa-envelope"></i> biuro@fastcars24.com
 </a></li>
                         <li><a href="tel:+48 786 862 109"><i class="fa fa-phone"></i> +48 786 862 109 </a></li>
                         <li><a href="tel:+48 537 417 462"><i class="fa fa-phone"></i> +48 532 718 466 </a></li>
