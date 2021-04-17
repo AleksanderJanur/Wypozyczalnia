@@ -1929,12 +1929,15 @@ ul, ol {
 	font-size: 13px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: #000000;
 	letter-spacing: 2px;
 	background: #18F105;
 	border: none;
 	padding: 14px 34px 13px;
 	display: inline-block;
+}
+.contact-form button:hover {
+	color: #ffffff;
 }
 .map {
 	height: 470px;
