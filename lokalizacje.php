@@ -275,11 +275,10 @@ $myparam = str_replace("-", " ", $myparam);
 <!--                            <a href="#" class="primary-btn about-btn">Dowiedz się więcej</a>-->
                         </div>
                     </div>
-                    <div style="margin: auto;width: 50%;" class="col-lg-6">
+                    <div style="margin: auto;" class="col-lg-6">
                         <div class="about-pic">
                             <div class="row">
-                                <img style="border: 1px solid #18F105
-; margin-top:30px;" src="/myImg/mazdasrodek.jpg" alt="">
+                                <img style="border: 1px solid #18F105;" src="/myImg/mazdasrodek.jpg" alt="">
                             </div>
                         </div>
                     </div>
