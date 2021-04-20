@@ -96,7 +96,7 @@
         <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
     </div>
     <ul class="top-widget emailAndPhone">
-        <li><a href="mailto:biuro@fastcars24.com"><i class="fa fa-envelope"></i> email@test.pl</a></li>
+        <li><a href="mailto:biuro@fastcars24.com"><i class="fa fa-envelope"></i>biuro@fastcars24.com</a></li>
         <li><a href="tel:+48 786 862 109"><i class="fa fa-phone"></i> +48 786 862 109 </a></li>
         <li><a href="tel:+48 537 417 462"><i class="fa fa-phone"></i> +48 532 718 466 </a></li>
     </ul>
@@ -221,7 +221,7 @@
                                 </tr>
                                 <tr>
                                     <td class="c-o">Email:</td>
-                                    <td>email@test.pl</td>
+                                    <td>biuro@fastcars24.com</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -275,7 +275,7 @@
                             <li><a href="index">Start</a></li>
                             <li><a href="./#nasze_samochody">Nasze Samochody</a></li>
                             <li><a href="./o-nas">O nas</a></li>
-                            <li ><a href="./lokalizacje.php">Lokalizacje</a>
+                            <li ><a href="lokalizacje/Wynajem-samochodów-sportowych-Kraków">Lokalizacje</a>
                             <li><a href="./oferta">Oferta</a></li>
                             <li><a href="./kontakt">Kontakt</a></li>
 

@@ -275,7 +275,7 @@ $myparam = str_replace("-", " ", $myparam);
 <!--                            <a href="#" class="primary-btn about-btn">Dowiedz się więcej</a>-->
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div style="margin: auto;width: 50%;" class="col-lg-6">
                         <div class="about-pic">
                             <div class="row">
                                 <img style="border: 1px solid #18F105
@@ -358,12 +358,12 @@ $myparam = str_replace("-", " ", $myparam);
                     <div class="ft-contact">
                         <h6>Nawigacja</h6>
                         <ul>
-                            <li><a href="index">Start</a></li>
-                            <li><a href="./#nasze_samochody">Nasze Samochody</a></li>
-                            <li><a href="./o-nas">O nas</a></li>
-                            <li ><a href="./lokalizacje.php">Lokalizacje</a>
-                            <li><a href="./oferta">Oferta</a></li>
-                            <li><a href="./kontakt">Kontakt</a></li>
+                            <li><a href="/">Start</a></li>
+                            <li><a href="/#nasze_samochody">Nasze Samochody</a></li>
+                            <li><a href="/o-nas">O nas</a></li>
+                            <li ><a href="/lokalizacje/Wynajem-samochodów-sportowych-Kraków">Lokalizacje</a>
+                            <li><a href="/oferta">Oferta</a></li>
+                            <li><a href="/kontakt">Kontakt</a></li>
 
                         </ul>
                     </div>
